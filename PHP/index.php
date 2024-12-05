@@ -1,6 +1,6 @@
 <?php 
-include '../inc/header.php';
-include '../inc/sidebar.php';
+include 'inc/header.php';
+include 'inc/sidebar.php';
 
 ?>
 
@@ -49,6 +49,28 @@ include '../inc/sidebar.php';
                                 </div>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area mr-1"></i>
+                                        Area Chart Example
+                                    </div>
+                                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar mr-1"></i>
+                                        Bar Chart Example
+                                    </div>
+                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table mr-1"></i>
@@ -94,5 +116,5 @@ include '../inc/sidebar.php';
                     </div>
                 </main>
 <?php
-include '../inc/footer.php';
+include 'inc/footer.php';
 ?>
