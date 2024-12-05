@@ -1,6 +1,7 @@
 <?php
 include 'inc/header.php';
-include 'inc/sidebar.php';
+include 'inc/sidebar-light.php';
+
 ?>
             <div id="layoutSidenav_content">
                 <main>
