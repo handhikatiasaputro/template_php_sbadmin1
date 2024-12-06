@@ -9,12 +9,12 @@ include __DIR__.'/../../inc/sidebar.php';
                         <h1 class="mt-4">Data Kategori</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="../index.php">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Tables</li>
+                            <li class="breadcrumb-item active">Data Kategori</li>
                         </ol>
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table mr-1"></i>
-                                DataTable Example
+                                Data Kategori
 
                                 <a href="tambah_kategori.php" class="btn btn-primary float-right"><i class="fas fa-plus mr-2"></i>Tambah Kategori</a>
                             </div>
@@ -26,7 +26,7 @@ include __DIR__.'/../../inc/sidebar.php';
                                                 <th>No</th>
                                                 <th>Nama</th>
                                                 <th>Ketrangan</th>
-                                                <th>Action</th>
+                                                <th>Aksi</th>
                                             </tr>
                                         </thead>
                                         <tfoot>
@@ -34,7 +34,7 @@ include __DIR__.'/../../inc/sidebar.php';
                                                 <th>No</th>
                                                 <th>Nama</th>
                                                 <th>Keterangan</th>
-                                                <th>Action</th>
+                                                <th>Aksi</th>
                                             </tr>
                                         </tfoot>
                                         <tbody>

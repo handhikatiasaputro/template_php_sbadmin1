@@ -13,7 +13,7 @@ include '../../inc/sidebar.php';
             </ol>
             <div class="card mb-6">
                 <div class="card-header">
-                  <a href="arsip.php" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Kembali</a>
+                  <a href="arsip.php" class="btn btn-link"><i class="fas fa-arrow-left"></i> Kembali</a>
                 </div>
                 <div class="card-body">
                     <div class="row">

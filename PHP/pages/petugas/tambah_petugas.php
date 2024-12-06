@@ -9,7 +9,7 @@ include '../../inc/sidebar.php';
             <h1 class="mt-4">Form Tambah Petugas</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                <li class="breadcrumb-item active">Form Vertical</li>
+                <li class="breadcrumb-item active">Tambah Petugas</li>
             </ol>
             <div class="card mb-4">
                 <div class="card-body">
@@ -17,7 +17,7 @@ include '../../inc/sidebar.php';
                         <!-- Nama Lengkap -->
                         <div class="form-group">
                             <label for="nama">Nama</label>
-                            <input type="text" class="form-control" id="nama">
+                            <input type="text" class="form-control" id="nama" autofocus>
                         </div>
 
                         <!-- Email Address -->
@@ -27,12 +27,16 @@ include '../../inc/sidebar.php';
                         </div>
 
                         <div class="form-group">
-                                        <label for="password">Password</label>
-                                        <input type="password" class="form-control" id="password">
-                                    </div>
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="fileUpload">Upload File </label>
+                            <input type="file" class="form-control-file" id="fileUpload">
+                        </div>
 
-                        <button type="submit" class="btn btn-primary">Kirim</button>
-                        <a href="petugas.php" class="btn btn-secondary">Kembali</a>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <a href="petugas.php" class="btn btn-link">Kembali</a>
                 </div>
             </div>
     </main>

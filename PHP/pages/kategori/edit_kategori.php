@@ -9,7 +9,7 @@ include '../../inc/sidebar.php';
             <h1 class="mt-4">Form Edit Kategori</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                <li class="breadcrumb-item active">Form Vertical</li>
+                <li class="breadcrumb-item active">Edit Kategori</li>
             </ol>
             <div class="card mb-4">
                 <div class="card-body">
@@ -26,8 +26,8 @@ include '../../inc/sidebar.php';
                             <input type="email" class="form-control" id="deskripsi">
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Kirim</button>
-                        <a href="kategori.php" class="btn btn-secondary">Kembali</a>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <a href="kategori.php" class="btn btn-link">Kembali</a>
                 </div>
             </div>
     </main>

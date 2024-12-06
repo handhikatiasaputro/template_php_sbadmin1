@@ -9,12 +9,12 @@ include __DIR__.'/../../inc/sidebar.php';
                         <h1 class="mt-4">Data Petugas</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="../index.php">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Tables</li>
+                            <li class="breadcrumb-item active">Data Petugas</li>
                         </ol>
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table mr-1"></i>
-                                DataTable Example
+                                Data Petugas
 
                                 <a href="tambah_petugas.php" class="btn btn-primary float-right"><i class="fas fa-plus mr-2"></i>Tambah Petugas</a>
                             </div>
@@ -24,22 +24,25 @@ include __DIR__.'/../../inc/sidebar.php';
                                         <thead>
                                             <tr>
                                                 <th>No</th>
+                                                <th>Foto</th>
                                                 <th>Nama</th>
                                                 <th>Username</th>
-                                                <th>Action</th>
+                                                <th>Aksi</th>
                                             </tr>
                                         </thead>
                                         <tfoot>
                                             <tr>
                                                 <td>No</td>
+                                                <td>Foto</td>
                                                 <th>Name</th>
                                                 <th>Position</th>
-                                                <th>Action</th>
+                                                <th>Aksi</th>
                                             </tr>
                                         </tfoot>
                                         <tbody>
                                             <tr>
                                             <td>1</td>
+                                            <td></td>
                                             <td><a href="#"><u>Tiger Nixon</u></a></td>
                                                 <td>System Architect</td>
                                                 <td>
